@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> THE MIGHTY DUCK</title>
+</head>
+<body>
+    <center>
+        <h1>
+            THE MIGHTY DUCK!!!!!!!!!
+        </h1>
+    </center>
+    <center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <img draggable="false" src="https://png.pngtree.com/png-clipart/20231020/original/pngtree-yellow-rubber-duck-png-image_13381103.png" width="100px" height="100px"/>
+    <h6 id="time"> </h6>
+    </center>
+    <script>
+        
+        var time = 0 ;
+      function loop(){
+        setTimeout(Timer,1000);
+      }
+        function Timer(){
+              document.getElementById("time").innerHTML = "It has been "+ time +" seconds playing with the MIGHTY DUCK" 
+              time++
+            console.log(time)
+            setTimeout(loop(),1000);
+        }
+         setTimeout(Timer(),1000); ;
+    </script>
+</body>
+</html>
